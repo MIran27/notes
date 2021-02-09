@@ -1,0 +1,310 @@
+{
+	"id": "d69b557f-0b3d-4f10-4867-77469931faac",
+	"name": "Note",
+	"description": "collection of note app",
+	"order": [
+		"711b5126-355b-60d8-999d-2d5e37fab695",
+		"34eb3f6b-0fe9-aa68-2009-cf2d1f5406d4",
+		"3c081db9-5b57-3ea1-677b-a36034d611bd",
+		"fda3f4aa-e51a-4da7-96e2-58af6d22976b",
+		"d075d73f-de3b-6e50-e0ca-443a2542ae32",
+		"5d3d1192-d779-cbee-77b5-d1d3712cff94",
+		"b6d66566-7cd4-775b-6904-9b1bb9fa9fb2",
+		"7d807e06-1aca-3ece-3bb8-094161f48507"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1610886339263,
+	"owner": "286588",
+	"public": false,
+	"requests": [
+		{
+			"id": "34eb3f6b-0fe9-aa68-2009-cf2d1f5406d4",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0X3VzZXIiLCJleHAiOjE2MTA5MjUwOTksImlhdCI6MTYxMDg4OTA5OX0.9uHdGMiFu9-kAvqIph7dXeFUuackk2p2SgrZbWi2_Ok\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0X3VzZXIiLCJleHAiOjE2MTA5MjUwOTksImlhdCI6MTYxMDg4OTA5OX0.9uHdGMiFu9-kAvqIph7dXeFUuackk2p2SgrZbWi2_Ok",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/user/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/user/",
+			"description": "Use this API to create new user ",
+			"descriptionFormat": "html",
+			"time": 1610889303739,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"username\" : \"new_user\",\n\t\"password\" : \"123\"\n}"
+		},
+		{
+			"id": "3c081db9-5b57-3ea1-677b-a36034d611bd",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/note",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/note",
+			"description": "Use this API to save new note. Use auth token before use the API",
+			"descriptionFormat": "html",
+			"time": 1610889535616,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\t\"title\":\"code challenge\",\n\t\"note\":\"test note\",\n\t\"archive\":false\n}"
+		},
+		{
+			"id": "5d3d1192-d779-cbee-77b5-d1d3712cff94",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/note/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/note/1",
+			"description": "This API use to update note",
+			"descriptionFormat": "html",
+			"time": 1610889915433,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"archive\":false,\n\t\"note\": \"change the note \",\n    \"title\": \"code challenge\"\n}"
+		},
+		{
+			"id": "711b5126-355b-60d8-999d-2d5e37fab695",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/user/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/user/login",
+			"description": "Use this API to login and get the token and use the current token in request Header",
+			"descriptionFormat": "html",
+			"time": 1610889144905,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"username\":\"test_user\",\n\t\"password\": \"test_user\"\n}"
+		},
+		{
+			"id": "7d807e06-1aca-3ece-3bb8-094161f48507",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/note/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/note/1",
+			"description": "This API use to delete note",
+			"descriptionFormat": "html",
+			"time": 1610890183455,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "b6d66566-7cd4-775b-6904-9b1bb9fa9fb2",
+			"headers": "Authorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/note/archive/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/note/archive/1",
+			"description": "This API use to archive the note",
+			"descriptionFormat": "html",
+			"time": 1610890027474,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"archive\":true\n\n}"
+		},
+		{
+			"id": "d075d73f-de3b-6e50-e0ca-443a2542ae32",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/note",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/api/v1/note",
+			"description": "This API gives the list of notes in current user. ",
+			"descriptionFormat": "html",
+			"time": 1610889794048,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fda3f4aa-e51a-4da7-96e2-58af6d22976b",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXdfdXNlciIsImV4cCI6MTYxMDkyNTI1NywiaWF0IjoxNjEwODg5MjU3fQ.yXiSFqpqCbTfYtd2uE-3Fbgx6-MZAEox93dy7O49Ack",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/note/archive",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d69b557f-0b3d-4f10-4867-77469931faac",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/api/v1/note/archive",
+			"description": "This API gives the list of archive notes. it's only shows the title of the note. ",
+			"descriptionFormat": "html",
+			"time": 1610889696645,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
